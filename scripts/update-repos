@@ -1,0 +1,9 @@
+#!/bin/env python3
+import os
+os.chdir("/home/user/repos")
+repos = os.listdir()
+for i in repos:
+    os.chdir(i)
+    print(i + ": ")
+    os.system("git pull")
+    os.chdir("..")
