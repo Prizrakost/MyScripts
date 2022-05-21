@@ -12,7 +12,7 @@ cp -r scripts ~/
 ```
 And add them to your PATH
 
-In .bashrc or .zshrc etc:
+In .bashrc or .zshrc or whatever add
 ```
 export PATH="$PATH:$HOME/scripts"
 ```
